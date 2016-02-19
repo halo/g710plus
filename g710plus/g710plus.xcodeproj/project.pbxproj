@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2D8A19A1C7628FA00336520 /* g710plus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D8A1981C7628FA00336520 /* g710plus.swift */; };
+		C2D8A19B1C7628FA00336520 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D8A1991C7628FA00336520 /* main.swift */; };
+		C2D8A19D1C77D0A700336520 /* KeyCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D8A19C1C77D0A700336520 /* KeyCodes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2D8A18C1C7628CD00336520 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C2D8A18E1C7628CD00336520 /* g710plus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = g710plus; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D8A1981C7628FA00336520 /* g710plus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = g710plus.swift; path = Classes/g710plus.swift; sourceTree = "<group>"; };
+		C2D8A1991C7628FA00336520 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = Classes/main.swift; sourceTree = "<group>"; };
+		C2D8A19C1C77D0A700336520 /* KeyCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyCodes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2D8A18B1C7628CD00336520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2D8A1851C7628CD00336520 = {
+			isa = PBXGroup;
+			children = (
+				C2D8A1901C7628CD00336520 /* Classes */,
+				C2D8A18F1C7628CD00336520 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2D8A18F1C7628CD00336520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2D8A18E1C7628CD00336520 /* g710plus */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2D8A1901C7628CD00336520 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C2D8A1991C7628FA00336520 /* main.swift */,
+				C2D8A1981C7628FA00336520 /* g710plus.swift */,
+				C2D8A19C1C77D0A700336520 /* KeyCodes.swift */,
+			);
+			name = Classes;
+			path = g710plus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2D8A18D1C7628CD00336520 /* g710plus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D8A1951C7628CD00336520 /* Build configuration list for PBXNativeTarget "g710plus" */;
+			buildPhases = (
+				C2D8A18A1C7628CD00336520 /* Sources */,
+				C2D8A18B1C7628CD00336520 /* Frameworks */,
+				C2D8A18C1C7628CD00336520 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = g710plus;
+			productName = g710plus;
+			productReference = C2D8A18E1C7628CD00336520 /* g710plus */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2D8A1861C7628CD00336520 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = halo;
+				TargetAttributes = {
+					C2D8A18D1C7628CD00336520 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = C2D8A1891C7628CD00336520 /* Build configuration list for PBXProject "g710plus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2D8A1851C7628CD00336520;
+			productRefGroup = C2D8A18F1C7628CD00336520 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2D8A18D1C7628CD00336520 /* g710plus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2D8A18A1C7628CD00336520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D8A19A1C7628FA00336520 /* g710plus.swift in Sources */,
+				C2D8A19B1C7628FA00336520 /* main.swift in Sources */,
+				C2D8A19D1C77D0A700336520 /* KeyCodes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C2D8A1931C7628CD00336520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2D8A1941C7628CD00336520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C2D8A1961C7628CD00336520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2D8A1971C7628CD00336520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2D8A1891C7628CD00336520 /* Build configuration list for PBXProject "g710plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D8A1931C7628CD00336520 /* Debug */,
+				C2D8A1941C7628CD00336520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D8A1951C7628CD00336520 /* Build configuration list for PBXNativeTarget "g710plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D8A1961C7628CD00336520 /* Debug */,
+				C2D8A1971C7628CD00336520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2D8A1861C7628CD00336520 /* Project object */;
+}
