@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C2D8A19A1C7628FA00336520 /* g710plus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D8A1981C7628FA00336520 /* g710plus.swift */; };
 		C2D8A19B1C7628FA00336520 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D8A1991C7628FA00336520 /* main.swift */; };
-		C2D8A19D1C77D0A700336520 /* KeyCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D8A19C1C77D0A700336520 /* KeyCodes.swift */; };
+		C2D8A19F1C78811600336520 /* KeyCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D8A19E1C78811600336520 /* KeyCodes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +28,7 @@
 		C2D8A18E1C7628CD00336520 /* g710plus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = g710plus; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D8A1981C7628FA00336520 /* g710plus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = g710plus.swift; path = Classes/g710plus.swift; sourceTree = "<group>"; };
 		C2D8A1991C7628FA00336520 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = Classes/main.swift; sourceTree = "<group>"; };
-		C2D8A19C1C77D0A700336520 /* KeyCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyCodes.swift; sourceTree = "<group>"; };
+		C2D8A19E1C78811600336520 /* KeyCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyCodes.swift; path = Classes/KeyCodes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			children = (
 				C2D8A1991C7628FA00336520 /* main.swift */,
 				C2D8A1981C7628FA00336520 /* g710plus.swift */,
-				C2D8A19C1C77D0A700336520 /* KeyCodes.swift */,
+				C2D8A19E1C78811600336520 /* KeyCodes.swift */,
 			);
 			name = Classes;
 			path = g710plus;
@@ -126,9 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D8A19F1C78811600336520 /* KeyCodes.swift in Sources */,
 				C2D8A19A1C7628FA00336520 /* g710plus.swift in Sources */,
 				C2D8A19B1C7628FA00336520 /* main.swift in Sources */,
-				C2D8A19D1C77D0A700336520 /* KeyCodes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
